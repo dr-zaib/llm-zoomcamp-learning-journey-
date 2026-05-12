@@ -1,3 +1,27 @@
 Il workshop copre il primo modulo di LLM Zoomcamp
 
-1. aperto codespace; nel terminale installato uv con pip
+1. aperto codespace; nel terminale installato uv con pip: uv è packet manager 
+
+2. XP: python -m ipykernel install --user --name rag-workshop --display-name "rag-workshop" 
+==> quando il kernel non appare
+
+3. creato .gitignore in cui abbiamo messo .venv e .env 
+==> tutto ciò che viene messo in .gitignore viene ignorato al push
+==> .env è stato creato per conservare tutti i "segreti"
+
+4. creato claude api key...è a pagamento e separato dall'abbonamento 
+claude pro...LADRIH!
+
+5. RAG = Retrieval Augmented Generation ==> applicazione più comune della Generation
+==> in questo workshop voglia creare un sistema RAG che faccia da 
+Customer Assistance
+
+6. In questo workshop implementeremo un sistema RAG a 3 step: 
+- search engine: ricerca pertinente tra i documenti ==> serve perché mandare tutto 
+il database all'llm è operazione computazionale costosa e non ha senso 
+- prompt builder: documenti trovati + contesto  
+- llm augmentation: il risultato della ricerca viene impacchettata nel prompt 
+e mandato all'llm, il quale fornirà una risposta
+
+7. Qui il dataset è praticamente già pronto ed indicizzato, nella realtà
+si spende un sacco di tempo a prepare i dati
