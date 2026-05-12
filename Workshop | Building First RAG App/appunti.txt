@@ -1,0 +1,3 @@
+Il workshop copre il primo modulo di LLM Zoomcamp
+
+1. aperto codespace; nel terminale installato uv con pip
