@@ -18,10 +18,11 @@ Customer Assistance
 
 6. In questo workshop implementeremo un sistema RAG a 3 step: 
 - search engine: ricerca pertinente tra i documenti ==> serve perché mandare tutto 
-il database all'llm è operazione computazionale costosa e non ha senso 
+il database all'llm è operazione computazionale costosa e non ha senso; il search serve 
+ad indicizzare il database
 - prompt builder: documenti trovati + contesto  
 - llm augmentation: il risultato della ricerca viene impacchettata nel prompt 
 e mandato all'llm, il quale fornirà una risposta
 
-7. Qui il dataset è praticamente già pronto ed indicizzato, nella realtà
+7. Qui il dataset è praticamente già preparato e pronto, nella realtà
 si spende un sacco di tempo a prepare i dati
