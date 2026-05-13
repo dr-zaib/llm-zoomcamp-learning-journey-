@@ -20,7 +20,12 @@ Customer Assistance
 - search engine: ricerca pertinente tra i documenti ==> serve perché mandare tutto 
 il database all'llm è operazione computazionale costosa e non ha senso; il search serve 
 ad indicizzare il database
+
 - prompt builder: documenti trovati + contesto  
+il prompt solitamentamente è fatto di 2 parti: instruction + user prompt
+* instruction: è la parte invariabile
+* user prompt: 
+
 - llm augmentation: il risultato della ricerca viene impacchettata nel prompt 
 e mandato all'llm, il quale fornirà una risposta
 
