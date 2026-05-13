@@ -31,3 +31,6 @@ e mandato all'llm, il quale fornirà una risposta
 
 7. Qui il dataset è praticamente già preparato e pronto, nella realtà
 si spende un sacco di tempo a prepare i dati
+
+
+** gardrail: check of the input before it goes to the llm
