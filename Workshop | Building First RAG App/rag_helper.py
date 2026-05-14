@@ -71,7 +71,7 @@ class RAGBase:
             {'role': 'user', 'content': prompt}
         ]
 
-        response = self.llm_client.responses.create(
+        response = self.llm_client.messages.create(
             model=self.model,
             max_tokens=1024,
             system=self.instructions,
