@@ -35,7 +35,8 @@ si spende un sacco di tempo a prepare i dati
 
 ** gardrail: check of the input before it goes to the llm
 
-8. we can devide the whole process into 2 macro things: 
-- RAG assistant: 
+8. we can devide the whole process into 3 macro things: 
+- RAG assistant
+- Database/Knowledge base
 - Ingestor
-==> they are connected through the database/knowledge base
+==> Rag assistant and Ingestor are connected through the database/knowledge base
